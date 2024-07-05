@@ -1,0 +1,91 @@
+.main-container {
+    padding: 10px 60px;
+}
+.header {
+    padding: 16px;
+    text-align: right;
+}
+.settings-btn {
+    /* padding: 16px 24px; */
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    background: none;
+    line-height: normal;
+}
+.settings-btn img {
+    /* width: 24px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.settings-btn:hover {
+    background: buttonface;
+}
+.product-img {
+    width: 230px;
+}
+.card {
+    width: 230px;
+    border: none;
+    border-radius: 0;
+}
+.card-body {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.theme-text {
+    color: #a8917f;
+}
+.price-tag {
+  font-family: Lora;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0.36px;
+  color: #898989;
+}
+.name-tag {
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: Lora;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #141414;
+}
+.rent-tag,
+.size-tag {
+    height: 24px;
+  align-self: stretch;
+  flex-grow: 0;
+  font-family: Lora;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #383838;
+}
+.grid-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding: 0;
+}
